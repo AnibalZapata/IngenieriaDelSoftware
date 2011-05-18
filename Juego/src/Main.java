@@ -4,11 +4,6 @@ import JuegoSabioNecio.Juego;
 
 
 public class Main {
-
-	/**
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		
 			Juego juego = new Juego();
@@ -17,9 +12,5 @@ public class Main {
 			juego.triangulo();
 			juego.colocarLaPosicionDelEspacioLibreEnElTablero();
 			juego.pedirJugada();
-			
-		
-
 	}
-
 }

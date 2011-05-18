@@ -189,7 +189,7 @@ public class Juego {
 		try {
 		     int exponente = Integer.parseInt(entradaPosicion.readLine());
 		     if( exponente >= 1 && exponente <= 15 ) {
-		       this.tableroCaracteres[exponente - 1] = '_';
+		       this.tableroCaracteres[exponente - 1] = 'O';
 		       System.out.println("\n" + "Este es el triangulo: " + "\n");
 		       triangulo();
 		     }
